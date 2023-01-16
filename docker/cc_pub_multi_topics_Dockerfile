@@ -1,0 +1,3 @@
+FROM openjdk:11
+COPY ./cc-pub-multitopics.jar /cc-pub-multitopics.jar
+CMD ["java", "-jar", "/cc-pub-multitopics.jar"]
